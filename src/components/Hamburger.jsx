@@ -16,6 +16,8 @@ const Hamburger = ({burger, deyis}) => {
           
           <li> <Link to='/about'> About </Link></li>
           <li> <Link to='/resume'> Resume  </Link></li>
+          <li> <Link to='/project'> Project  </Link></li>
+
           <li> <Link to='/contact'> Contact  </Link></li>
           
       </ul>

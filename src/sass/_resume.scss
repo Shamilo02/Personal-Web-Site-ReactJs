@@ -1,0 +1,160 @@
+.resume {
+font-family: Poppins,sans-serif;
+    .resume-title{
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        padding: 30px;
+        h2{
+            text-transform: uppercase;
+            font-weight: 630;
+            letter-spacing: 3px;
+            font-size: 2em;
+            word-spacing: 3px;
+        
+    }
+
+    
+}
+.resume-us {
+    padding: 30px;
+    background-color: white;
+    .flex-res{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+        
+    
+       .title-box{
+           width: 30%;
+           border: 1px solid #ddd;
+           text-align: center;
+           padding: 15px;
+          
+               img{
+                   width: 100%;
+               }
+           
+    
+       }
+    
+    }
+    
+        .flex-btn {
+            width: 80%;
+            margin: 25px 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        
+            .btn{
+                padding: 8px 0;
+                width: 30%;
+                text-align: center;
+                background-color: black;
+                color: #ddd;
+                cursor: pointer;
+                font-size: 16px;
+                font-family: Poppins,sans-serif;
+                border: 0;
+            }
+        
+        }
+    
+
+    .flex-skil{
+        .progressBar {
+            background-color: gainsboro;
+            margin: 10px 0;
+            height: 40px;
+            line-height: 40px;
+           
+            .progress{
+               padding-left: 15px;
+               font-size: 18px;
+            //    color: #fff  ;
+
+                
+            }
+            .html{
+                width: 78%;
+                background-color: orangered;
+            }
+            .css{
+                width: 80%;
+                background-color: #3498db;
+            }
+            .js {
+                width: 78%;
+                background-color: #f1c40f;
+            }
+    
+            .rjs{
+                width: 80%;
+                background-color: #0097e6;
+            }
+            .bs{
+                width: 90%;
+                background-color: #8e44ad;
+            }
+            .jq{
+                width: 90%;
+                background-color: #2980b9;
+            }
+            .tcs{
+                width: 80%;
+                background-color: #485460;
+            }
+            .njs{
+                width: 75%;
+                background-color: #a29bfe;
+            }
+    
+            .cjs{
+                width: 70%;
+                background-color: #778beb;
+            }
+    
+            .mdb{
+                width: 80%;
+                background-color: #00b894;
+            }
+    
+            .nojs{
+                width: 78%;
+                background-color: #e17055;
+            }
+    
+            .ejs{
+                width: 75%;
+                background-color: #fdcb6e;
+            }
+            .mjs{
+                width: 75%;
+                background-color: #575fcf;
+            }
+            .scs{
+                width: 75%;
+                background-color: #ff5e57;
+            }
+        }
+    }
+}
+
+
+
+@media  only screen and (max-width:992px) {
+    .resume-us {
+        .flex-res{
+            flex-wrap: wrap;
+            .title-box{
+                width: 100%;
+                margin: 10px auto;
+            }
+        }
+    }
+   }
+}
+

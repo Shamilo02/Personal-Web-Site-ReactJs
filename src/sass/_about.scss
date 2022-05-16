@@ -1,0 +1,103 @@
+.about{
+
+    font-family: Poppins,sans-serif;
+
+    
+    .about-me{
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        padding: 30px;
+        h2{
+            text-transform: uppercase;
+            font-weight: 630;
+            letter-spacing: 3px;
+            font-size: 2em;
+            word-spacing: 3px;
+        }
+    }
+
+    .about-us{
+        padding: 30px;
+        background-color: white;
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        p{
+            width: 50%;
+            font-size: 15px;
+        }
+        .img{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+        *{
+            margin-bottom: 18px;
+        }
+
+        .flex-box{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .box{
+                i{
+                    font-size: 2.5em;
+                    color: crimson;
+                }
+                width: 30%;
+                padding: 15px 8px;
+                text-align: center;
+                background-color: aliceblue;
+                border: 1px solid #ddd;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .about{
+        .about-us{
+            
+                .flex{
+                    display: flex;
+                    flex-wrap: wrap-reverse;
+                        .img {
+                            width: 100%;
+                        }
+        
+                        p{
+                            width: 100%;
+                        }
+                }
+            }
+            }
+        }
+    
+
+@media  only screen and (max-width:992px) {
+.about{
+    .about-us{
+        .flex-box{
+            flex-wrap: wrap;
+            .box{
+                width: 48%;
+            }
+        }
+        .flex{
+            display: flex;
+            flex-wrap: wrap-reverse;
+                .img {
+                    width: 100%;
+                }
+
+                p{
+                    width: 100%;
+                }
+        }
+    }
+}
+
+}

@@ -53,7 +53,7 @@ nav .logo h1 {
 }
 
 nav ul {
-  width: 25%;
+  width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,6 +106,12 @@ nav ul li a {
   font-weight: bold;
   color: black;
   letter-spacing: 1px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.hamburger-menu ul li a:hover {
+  color: #2929bb;
 }
 
 .hamburger-menu i {
@@ -238,15 +244,15 @@ nav ul li a {
 }
 
 .wrapper .sidebar .card-about {
-  font-family: Jost,sans-serif;
+  font-family: Poppins,sans-serif;
 }
 
 .wrapper .sidebar .card-about * {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .wrapper .sidebar .card-about p {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .wrapper .sidebar .card-about a {
@@ -257,7 +263,7 @@ nav ul li a {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 15px;
-  border: 0;
+  border: 1px solid blue;
   cursor: pointer;
 }
 
@@ -308,6 +314,7 @@ nav ul li a {
 
 .home .about-site p {
   letter-spacing: 1px;
+  font-size: 18px;
   font-weight: 300;
   word-spacing: 2px;
 }
@@ -348,5 +355,368 @@ nav ul li a {
   .home .about-site {
     height: 40vh;
   }
+}
+
+.about {
+  font-family: Poppins,sans-serif;
+}
+
+.about .about-me {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 30px;
+}
+
+.about .about-me h2 {
+  text-transform: uppercase;
+  font-weight: 630;
+  letter-spacing: 3px;
+  font-size: 2em;
+  word-spacing: 3px;
+}
+
+.about .about-us {
+  padding: 30px;
+  background-color: white;
+}
+
+.about .about-us .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about .about-us .flex p {
+  width: 50%;
+  font-size: 15px;
+}
+
+.about .about-us .flex .img {
+  width: 50%;
+}
+
+.about .about-us .flex .img img {
+  width: 100%;
+}
+
+.about .about-us * {
+  margin-bottom: 18px;
+}
+
+.about .about-us .flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about .about-us .flex-box .box {
+  width: 30%;
+  padding: 15px 8px;
+  text-align: center;
+  background-color: aliceblue;
+  border: 1px solid #ddd;
+}
+
+.about .about-us .flex-box .box i {
+  font-size: 2.5em;
+  color: crimson;
+}
+
+@media only screen and (max-width: 1300px) {
+  .about .about-us .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  .about .about-us .flex .img {
+    width: 100%;
+  }
+  .about .about-us .flex p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .about .about-us .flex-box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .about .about-us .flex-box .box {
+    width: 48%;
+  }
+  .about .about-us .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  .about .about-us .flex .img {
+    width: 100%;
+  }
+  .about .about-us .flex p {
+    width: 100%;
+  }
+}
+
+.resume {
+  font-family: Poppins,sans-serif;
+}
+
+.resume .resume-title {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 30px;
+}
+
+.resume .resume-title h2 {
+  text-transform: uppercase;
+  font-weight: 630;
+  letter-spacing: 3px;
+  font-size: 2em;
+  word-spacing: 3px;
+}
+
+.resume .resume-us {
+  padding: 30px;
+  background-color: white;
+}
+
+.resume .resume-us .flex-res {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.resume .resume-us .flex-res .title-box {
+  width: 30%;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 15px;
+}
+
+.resume .resume-us .flex-res .title-box img {
+  width: 100%;
+}
+
+.resume .resume-us .flex-btn {
+  width: 80%;
+  margin: 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.resume .resume-us .flex-btn .btn {
+  padding: 8px 0;
+  width: 30%;
+  text-align: center;
+  background-color: black;
+  color: #ddd;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Poppins,sans-serif;
+  border: 0;
+}
+
+.resume .resume-us .flex-skil .progressBar {
+  background-color: gainsboro;
+  margin: 10px 0;
+  height: 40px;
+  line-height: 40px;
+}
+
+.resume .resume-us .flex-skil .progressBar .progress {
+  padding-left: 15px;
+  font-size: 18px;
+}
+
+.resume .resume-us .flex-skil .progressBar .html {
+  width: 78%;
+  background-color: orangered;
+}
+
+.resume .resume-us .flex-skil .progressBar .css {
+  width: 80%;
+  background-color: #3498db;
+}
+
+.resume .resume-us .flex-skil .progressBar .js {
+  width: 78%;
+  background-color: #f1c40f;
+}
+
+.resume .resume-us .flex-skil .progressBar .rjs {
+  width: 80%;
+  background-color: #0097e6;
+}
+
+.resume .resume-us .flex-skil .progressBar .bs {
+  width: 90%;
+  background-color: #8e44ad;
+}
+
+.resume .resume-us .flex-skil .progressBar .jq {
+  width: 90%;
+  background-color: #2980b9;
+}
+
+.resume .resume-us .flex-skil .progressBar .tcs {
+  width: 80%;
+  background-color: #485460;
+}
+
+.resume .resume-us .flex-skil .progressBar .njs {
+  width: 75%;
+  background-color: #a29bfe;
+}
+
+.resume .resume-us .flex-skil .progressBar .cjs {
+  width: 70%;
+  background-color: #778beb;
+}
+
+.resume .resume-us .flex-skil .progressBar .mdb {
+  width: 80%;
+  background-color: #00b894;
+}
+
+.resume .resume-us .flex-skil .progressBar .nojs {
+  width: 78%;
+  background-color: #e17055;
+}
+
+.resume .resume-us .flex-skil .progressBar .ejs {
+  width: 75%;
+  background-color: #fdcb6e;
+}
+
+.resume .resume-us .flex-skil .progressBar .mjs {
+  width: 75%;
+  background-color: #575fcf;
+}
+
+.resume .resume-us .flex-skil .progressBar .scs {
+  width: 75%;
+  background-color: #ff5e57;
+}
+
+@media only screen and (max-width: 992px) {
+  .resume .resume-us .flex-res {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .resume .resume-us .flex-res .title-box {
+    width: 100%;
+    margin: 10px auto;
+  }
+}
+
+.contact {
+  font-family: Poppins,sans-serif;
+}
+
+.contact .contact-me {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 30px;
+}
+
+.contact .contact-me h2 {
+  text-transform: uppercase;
+  font-weight: 630;
+  letter-spacing: 3px;
+  font-size: 2em;
+  word-spacing: 3px;
+}
+
+.contact .contact-us {
+  background-color: white;
+  padding: 30px;
+}
+
+.contact .contact-us * {
+  margin-bottom: 15px;
+}
+
+.contact .contact-us .gmail a {
+  color: #9b59b6;
+  font-size: 16px;
+}
+
+.contact .contact-us .sosial {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact .contact-us .sosial a {
+  font-size: 40px;
+}
+
+.contact .contact-us .sosial a:nth-child(1) {
+  color: #706fd3;
+}
+
+.contact .contact-us .sosial a:nth-child(2) {
+  color: #ff793f;
+}
+
+.contact .contact-us .sosial a:nth-child(3) {
+  color: black;
+}
+
+.contact .contact-us .sosial a:nth-child(4) {
+  color: #40407a;
+}
+
+.contact .contact-us .sosial a:nth-child(5) {
+  color: #474787;
+}
+
+.contact .contact-us .sosial a:nth-child(6) {
+  color: #34ace0;
 }
 /*# sourceMappingURL=style.css.map */

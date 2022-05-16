@@ -7,6 +7,7 @@ const Navbar = () => {
    const [burger, SetBurger] = useState(false)
     const deyis = () => {
         SetBurger(!burger)
+       
     }
   return (
       <>
@@ -18,6 +19,8 @@ const Navbar = () => {
         </div>
 
         <ul>
+
+            <li><Link to='/about'> About   </Link></li>
             <li><Link to='/resume'> Resume  </Link></li>
             <li><Link to='/project'> Project </Link></li>
             <li><Link  to='/contact'> Contact </Link></li>

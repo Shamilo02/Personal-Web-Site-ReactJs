@@ -1,0 +1,68 @@
+.contact{
+    font-family: Poppins,sans-serif;
+    .contact-me{
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        padding: 30px;
+        h2{
+            text-transform: uppercase;
+            font-weight: 630;
+            letter-spacing: 3px;
+            font-size: 2em;
+            word-spacing: 3px;
+        }
+    }
+
+    .contact-us{
+        background-color: white;
+        padding: 30px;
+        *{
+            margin-bottom: 15px;
+        }
+        .gmail{
+            
+           
+           
+
+            a{
+                color: #9b59b6;
+                font-size: 16px;
+                
+                
+            }
+        }
+
+        .sosial{
+            width: 40%;
+            display: flex;
+            justify-content: space-between;
+            a{
+                
+                font-size: 40px;
+
+                &:nth-child(1){
+                    color: #706fd3;
+                }
+                &:nth-child(2){
+                    color: #ff793f;
+                }
+                &:nth-child(3){
+                    color: black;
+                }
+                &:nth-child(4){
+                    color: #40407a;
+                }
+                &:nth-child(5){
+                    color: #474787;
+                }
+                &:nth-child(6){
+                    color: #34ace0;
+                }
+
+            }
+
+        }
+    }
+}

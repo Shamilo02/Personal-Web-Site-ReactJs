@@ -1,27 +1,34 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import {motion}  from 'framer-motion'
 
 const Home = () => {
   return (
-    <div className='home'>
+    <motion.div className='home'
+    initial={{width: 0}}
+    animate={{width: "100%"}}
+    exit={{width: window.innerWidth}}
+    >
     <div className="about-site">
       <h1>Sayt Haqqında   </h1>
       <p>
-        Müasir Javascriptlə yazılıb, <i style={{color:"crimson"}}>Responsive dizayn verilib</i>, istifadə olunan veb proqramlar <i style={{color:"firebrick"}}>React Js + Scss</i>,  react kitabxanalarından <i 
-        style={{ color:"crimson"}}>REACT-ROUTER-DOM,FRAMER MOTION, REACT ICONS</i> kitabxanaları istifadə olunub.
+        Müasir Javascriptlə yazılıb, Responsive dizayn verilib , istifadə olunan 
+        veb proqramlar <span>React Js + Scss</span> ,  react kitabxanalarından 
+       <span> react-router-dom, framer-motion, react-icons </span> 
+       kitabxanaları istifadə olunub.
         .</p>
     </div>
     <hr />
       <div className="w-site">
         <p> 
          Saytıma xoş gəlmisiniz, zəhmət olmasa mənim 
-          <i><Link to='/about'> haqqımda </Link> </i>daha 
+          <i><Link to='/resume'> haqqımda </Link> </i>daha 
           çox oxuya bilərsiniz və ya mənim CV layihələrimə 
           baxa bilərsiniz,  və ya mənimlə  <i><Link to='/contact'>əlaqə </Link></i> saxlaya bilərsiniz.
 
         </p>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
