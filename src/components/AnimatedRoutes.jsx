@@ -1,6 +1,6 @@
 import React from 'react'
 import {Routes,Route, useLocation} from 'react-router-dom'
-import { motion, transform } from 'framer-motion'
+import { motion } from 'framer-motion'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Home from './pages/Home'

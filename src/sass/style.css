@@ -400,6 +400,11 @@ nav ul li a {
   font-size: 15px;
 }
 
+.about .about-us .flex p a {
+  color: crimson;
+  font-weight: bold;
+}
+
 .about .about-us .flex .img {
   width: 50%;
 }
@@ -693,7 +698,7 @@ nav ul li a {
 }
 
 .contact .contact-us .sosial a {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .contact .contact-us .sosial a:nth-child(1) {
@@ -718,5 +723,113 @@ nav ul li a {
 
 .contact .contact-us .sosial a:nth-child(6) {
   color: #34ace0;
+}
+
+@media only screen and (max-width: 992px) {
+  .contact .contact-us .sosial {
+    width: 80%;
+  }
+}
+
+.project {
+  font-family: Poppins,sans-serif;
+}
+
+.project .project-me {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 30px;
+}
+
+.project .project-me h2 {
+  text-transform: uppercase;
+  font-weight: 630;
+  letter-spacing: 3px;
+  font-size: 2em;
+  word-spacing: 3px;
+}
+
+.project .project-us {
+  background-color: white;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project .project-us .box-project {
+  width: 45%;
+}
+
+.project .project-us .box-project img {
+  width: 100%;
+}
+
+.project .project-us .box-project .flex-btn {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project .project-us .box-project .flex-btn a {
+  padding: 8px 25px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+.project .project-us * {
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1290px) {
+  .project .project-us {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .project .project-us .box-project {
+    width: 100%;
+  }
+  .project .project-us .box-project .flex-btn {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .project .project-us {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .project .project-us .box-project {
+    width: 100%;
+  }
+  .project .project-us .box-project .flex-btn {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 /*# sourceMappingURL=style.css.map */

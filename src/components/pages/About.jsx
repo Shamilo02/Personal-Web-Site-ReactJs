@@ -36,11 +36,9 @@ const About = () => {
       sadəcə olaraq bu rəsm və dizayn məsələlərini kodlarla birləşdirdim.
       Hər şeyi tam dərindən öyrənmək üçün əlimdə olan bütün sosyal şəbəkələrdən
       istifadə etdim, istər Youtube olsun, istər Udemy-dən aldığım kurslarla bu sahə üzrə 
-      bacardığım qədər öyrənməyə çalışdım, ama tam öyrənmək deyə bir şey yoxdur, 
-      çünki kodlaşdırma da texnologiyanın böyük bir parçasıdır
-      və  texnologiya dayanmadan inkşaf edir, və öyrəndiklərimi 
-      təkmilləşdirmək üçün proqramlaşdırma üzrə seminarlara və kurslara qatıldım.
-      daha sonra Freelancer komandalarda çalışdım.
+      bacardığım qədər öyrənməyə çalışdım, daha sonra kurslara yazıldım 
+      <a href="https://www.matrix.co.az/"> Matrix Training Center </a> ve 
+      <a href="https://www.nantech.az/#"> Nan Tech </a>, daha sonra real proyektler üzərində işləməyə başladım.
 
         </p>
 

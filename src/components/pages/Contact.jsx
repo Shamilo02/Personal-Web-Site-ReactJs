@@ -1,7 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTelegram, FaTwitter } from 'react-icons/fa'
-import {SiGmail } from 'react-icons/si'
 const Contact = () => {
   return (
     <motion.div className='contact'
@@ -20,7 +19,7 @@ const Contact = () => {
       <a href='https://www.instagram.com/shamilo.02/'><i> <FaInstagram/> </i></a>
       <a href='https://github.com/Shamilo02'><i> <FaGithub/> </i></a>
      <a href='https://www.linkedin.com/in/%C5%9Famil-qurbanov-40383021a/'> <i> <FaLinkedin/> </i></a>
-      <a href='https://web.telegram.org/k/'><i> <FaTelegram/> </i></a>
+      <a href='https://t.me/shamilo13'><i> <FaTelegram/> </i></a>
      <a href='https://twitter.com/samilqurban0v'> <i> <FaTwitter/> </i></a>
     </div>
 

@@ -46,14 +46,15 @@ const Sidebar = () => {
         <hr />
 
         <div className="social">
-          <a> <FaGithub/> </a>
-          <a> <FaFacebook/> </a>
-          <a> <FaInstagram/> </a>
-          <a> <FaLinkedin/> </a>
-          <a><FaTwitter/> </a>
-          <a><FaTelegram/> </a>
-        </div>
+        <a href='https://www.facebook.com/profile.php?id=100010720202303'> <i> <FaFacebook/> </i></a>
+      <a href='https://www.instagram.com/shamilo.02/'><i> <FaInstagram/> </i></a>
+      <a href='https://github.com/Shamilo02'><i> <FaGithub/> </i></a>
+     <a href='https://www.linkedin.com/in/%C5%9Famil-qurbanov-40383021a/'> <i> <FaLinkedin/> </i></a>
+      <a href='https://t.me/shamilo13'><i> <FaTelegram/> </i></a>
+     <a href='https://twitter.com/samilqurban0v'> <i> <FaTwitter/> </i></a>
     </div>
+        </div>
+   
   )
 }
 

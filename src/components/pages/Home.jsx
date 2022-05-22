@@ -22,9 +22,9 @@ const Home = () => {
       <div className="w-site">
         <p> 
          Saytıma xoş gəlmisiniz, zəhmət olmasa mənim 
-          <i><Link to='/resume'> haqqımda </Link> </i>daha 
+          <i><Link to='/resume'> biliklərim </Link> haqqında  </i>daha 
           çox oxuya bilərsiniz və ya mənim CV layihələrimə 
-          baxa bilərsiniz,  və ya mənimlə  <i><Link to='/contact'>əlaqə </Link></i> saxlaya bilərsiniz.
+          baxa bilərsiniz <Link to='/project'> Project </Link>,  və ya mənimlə  <i><Link to='/contact'>əlaqə </Link></i> saxlaya bilərsiniz.
 
         </p>
       </div>

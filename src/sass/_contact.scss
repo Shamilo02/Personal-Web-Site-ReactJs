@@ -40,7 +40,7 @@
             justify-content: space-between;
             a{
                 
-                font-size: 40px;
+                font-size: 30px;
 
                 &:nth-child(1){
                     color: #706fd3;
@@ -63,6 +63,16 @@
 
             }
 
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .contact {
+        .contact-us {
+            .sosial {
+                width: 80%;
+            }
         }
     }
 }
