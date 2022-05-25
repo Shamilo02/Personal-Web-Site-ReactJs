@@ -285,7 +285,6 @@ nav ul li a {
 }
 
 .home .about-site {
-  height: 35vh;
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -324,7 +323,6 @@ nav ul li a {
 }
 
 .home .w-site {
-  height: 30vh;
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -351,9 +349,41 @@ nav ul li a {
   word-spacing: 2px;
 }
 
-@media only screen and (max-width: 992px) {
+@media screen and (max-width: 500px) {
   .home .about-site {
-    height: 40vh;
+    padding: 30px;
+  }
+  .home .about-site h1 {
+    font-size: 18px;
+  }
+  .home .about-site p {
+    font-size: 15px;
+  }
+  .home .w-site {
+    padding: 20px;
+  }
+  .home .w-site p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .home .about-site {
+    padding: 10px;
+  }
+  .home .about-site h1 {
+    font-size: 18px;
+  }
+  .home .about-site p {
+    font-size: 11px;
+  }
+  .home .w-site {
+    padding: 20px;
+  }
+  .home .w-site p {
+    font-size: 12px;
+    line-height: 16px;
   }
 }
 
@@ -362,7 +392,6 @@ nav ul li a {
 }
 
 .about .about-me {
-  height: 15vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -485,7 +514,6 @@ nav ul li a {
 }
 
 .resume .resume-title {
-  height: 15vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -654,7 +682,6 @@ nav ul li a {
 }
 
 .contact .contact-me {
-  height: 15vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -731,12 +758,20 @@ nav ul li a {
   }
 }
 
+@media only screen and (max-width: 350px) {
+  .contact .contact-us .sosial {
+    width: 80%;
+  }
+  .contact .contact-us .sosial a {
+    font-size: 20px;
+  }
+}
+
 .project {
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 .project .project-me {
-  height: 15vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -804,7 +839,7 @@ nav ul li a {
     width: 100%;
   }
   .project .project-us .box-project .flex-btn {
-    width: 80%;
+    width: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -814,19 +849,50 @@ nav ul li a {
   }
 }
 
-@media only screen and (max-width: 992px) {
-  .project .project-us {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .project .project-us .box-project {
-    width: 100%;
-  }
+@media only screen and (max-width: 690px) {
   .project .project-us .box-project .flex-btn {
-    width: 80%;
+    width: 70%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 518px) {
+  .project .project-us .box-project .flex-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 518px) {
+  .project .project-us .box-project .flex-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 373px) {
+  .project .project-us .box-project .flex-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
